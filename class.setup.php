@@ -116,6 +116,7 @@ class lcoreSetup {
             }
             closedir($handle);
         }
+        
         sort($fns);
         return $fns;
     }
